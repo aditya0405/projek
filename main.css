@@ -1,0 +1,59 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+
+body{
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    background-color: ghostwhite;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* dia memberikan jarak antar box samarata */
+    justify-content: space-evenly;
+}
+
+.set1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box1,
+.box2,
+.box3,
+.box4{
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    
+}
+
+.box1{
+    background-image: url(https://displaypt.com/wp-content/uploads/2018/10/TEAM-200x200.png);
+}
+.box2{
+    background-image: url(http://davidnaylor.org/temp/thunderbird-logo-200x200.png);
+}
+.box3{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvvpIGHUq2KvAiN_1ztr50v7mpLkFAe49XA&usqp=CAU);
+    
+}
+.box4{
+    background-image: url(https://i.pinimg.com/236x/ed/a6/c9/eda6c9af902d843e2b757b49c9e3b781.jpg);
+}
